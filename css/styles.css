@@ -1,0 +1,174 @@
+body{
+background-color: black;
+}
+.map {
+  margin:auto;
+  position: relative;
+  width: 1860px;
+  height: 1216px;
+  background-image: url('../img/GoTMap.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#CB-select {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 65px;
+  left: 450px;
+}
+#CB:hover #castle-black {
+  display: block;
+  top: 60px;
+  left: 350px;
+}
+#WF-select {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 220px;
+  left: 370px;
+}
+#WF:hover #winterfell {
+  display: block;
+  top: 220px;
+  left: 300px;
+}
+#TT-select {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 460px;
+  left: 350px;
+}
+#TT:hover #TheTwins {
+  display: block;
+  top: 460px;
+  left: 290px;
+}
+#TE-select {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 490px;
+  left: 500px;
+}
+#TE:hover #TheEyrie {
+  display: block;
+  top: 500px;
+  left: 430px;
+}
+#P-select {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 515px;
+  left: 220px;
+}
+#P:hover #Pyke {
+  display: block;
+  top: 510px;
+  left: 135px;
+}
+#HH-select {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 570px;
+  left: 420px;
+}
+#HH:hover #Harrenhal {
+  display: block;
+  top: 565px;
+  left: 340px;
+}
+#DS-select {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 600px;
+  left: 565px;
+}
+#DS:hover #Dragonstone {
+  display: block;
+  top: 605px;
+  left: 475px;
+}
+#CR-select {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 620px;
+  left: 215px;
+}
+#CR:hover #Casterly-rock {
+  display: block;
+  top: 615px;
+  left: 130px;
+}
+#KL-select {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 655px;
+  left: 485px;
+}
+#KL:hover #Kings-landing {
+  display: block;
+  top: 650px;
+  left: 400px;
+}
+#HG-select {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 780px;
+  left: 280px;
+}
+#HG:hover #Highgarden {
+  display: block;
+  top: 775px;
+  left: 200px;
+}
+#SS-select {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 920px;
+  left: 580px;
+}
+#SS:hover #Sunspear {
+  display: block;
+  top: 915px;
+  left: 500px;
+}
+#RR-select {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 560px;
+  left: 350px;
+}
+#RR:hover #Riverrun {
+  display: block;
+  top: 555px;
+  left: 270px;
+}
+.housename{
+  display: none;
+  height: auto;
+  width: auto;
+  position: absolute;
+  letter-spacing: 1px;
+  box-shadow: 0px 0px 30px rgba(70, 70, 70, 0.3);
+  background-color: rgba(70, 70, 70, 0.4);
+  color: #fff;
+  font-family: 'zaphino', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: full-width;
+  text-align: center;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+}
